@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5037559928876947771}
   m_Layer: 0
   m_Name: Obstacle Right
-  m_TagString: Untagged
+  m_TagString: Dead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +131,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5037559929470759064}
   - component: {fileID: 5037559929470759047}
-  - component: {fileID: 5037559929470759066}
   - component: {fileID: 5037559929470759067}
   - component: {fileID: 5037559929470759068}
   - component: {fileID: 5037559929470759069}
@@ -212,18 +211,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5037559929470759066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5037559929470759046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c02577d9e32110047b07ab87d1c2018c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &5037559929470759067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -292,7 +279,7 @@ GameObject:
   - component: {fileID: 5037559929792460402}
   m_Layer: 0
   m_Name: Obstacle Mid
-  m_TagString: Untagged
+  m_TagString: Dead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,7 +400,7 @@ GameObject:
   - component: {fileID: 5037559929989000779}
   m_Layer: 0
   m_Name: Obstacle Left
-  m_TagString: Untagged
+  m_TagString: Dead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
